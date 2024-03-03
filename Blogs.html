@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title> Satadru's Bio </title>
-    <link rel="stylesheet" type="text/css" href="Home.css" title="style" />
-    <script src="Home.js"></script>
+
+    <title> Satadru's Blogs </title>
+    <link rel="stylesheet" type="text/css" href=".css" title="style" />
+    <!--<script src="Satada7.js"> </script>-->
     <!-- bootstrap imports -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -13,24 +14,23 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- font imports -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
-    <!-- links for particles -->
-    <script type='text/javascript' src='js/jquery.particleground.js'></script>
-    <script type='text/javascript' src='js/demo.js'></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
+
+
+<!--</div>-->
+
 <body style="background-color: rgb(169,169,169);">
 
-
-    <!--Main Dropdown menu-->
+    <!-- **** Drop Down Menu **** -->
 
     <div id="navbar">
-        <a class="active" href="index.html">Bio</a>
-        <a href="Resume.html">Resume</a>
-        <a href="javascript:void(0)">Projects</a>
-        <a href="javascript:void(0)">Blogs</a>
+        <a href="">Bio</a>
+        <a href="">Resume</a>
+        <a href="">Projects</a>
+        <a class="active" href="">Blogs</a>
         <!--<a href="file:///Users/satadrusatadalroy/Desktop/Websitescodes/satadrusatadal.com/Project2.html#home">Projects</a>
-        Will create dropdown button for those contacts below-->
+    Will create dropdown button for those contacts below-->
         <a href="https://www.linkedin.com/in/satadalyu/">
             <span class="fa fa-linkedin-square" aria-hidden="true"> </span>
         </a>
@@ -49,7 +49,7 @@
         <a href="https://www.instagram.com/satadruswiss/">
             <span class="fa fa-instagram" aria-hidden="true"> </span>
         </a>
-     
+
 
 
     </div>
@@ -127,42 +127,46 @@
 
 
     <!-- **** Drop Down Menu END **** -->
-    <!-- particles -->
-    <div class="particles" style="position:absolute; height:100vh; width:100%; z-index: -100; opacity: 0.6;"></div>
 
     <div class="container">
 
-        <div class="mt-4">
-            <img src="Profile.png" height="350" width="350" alt="Profilepic">
+
+        <div id="flighttrack" class="row text-center text-white">
+            <div id="gold">
+                <p style="font-size:60px;" class="montserrat-font font-weight-light"> Tesla FSD (Full Self Driving) Process Tracker and the Software tracker </p>
+            </div>
         </div>
 
-        <div id="Para" class="row text-center text-white">
-            <p style="font-size:60px;" class="montserrat-font font-weight-light"> I am Satadru Satadal Roy </p>
-            <p style="font-size:24px;" class="open-sans-font my-5 py-3">
-                Graduated in B.A. of Geography, Faculty of Environmental and Urban Change at York University in 2023 with Deans Honours Role. Currently work at a real estate rental firm, based in Montreal.
-                <br />
-                I am passonate in science, engineering and tecnology, Ux Design, Product Design, Urban planning and Sustainability.
-                <br />
-                <br />
-                In my free times, I explore and research on lots of topics. I share some of those ideas thoughts and some projects in my Projects and Blogs.[Currently Under Contruction 🥲]
-            </p>
+        <div id="teslafsd" class="row text-center text-white">
+            <p style="font-size:20px;" class="montserrat-font font-weight-light"> This window below shows the FSD Beta performance, data is submitted by FSD Beta testers. </p>
+            <iframe scrolling="no" frameborder="0" style="height: 900px; width: 1000px" align="middle" src="https://app.powerbi.com/view?r=eyJrIjoiZTlkMWY1NTMtYTM1Mi00YmZmLWE4ZjQtZmE0M2EyMjgzMDNjIiwidCI6ImMxM2M0MmQ1LTlhNTAtNDY3YS05Yjc3LWI1MjkyYzgxZjM1NSIsImMiOjF9"> </iframe>
 
         </div>
 
     </div>
 
 
-
-
-    <!-- script to activate particles -->
-    <script>$('.particles').particleground({
-            dotColor: 'gold',
-            lineColor: 'silver',
-            particleRadius: 5
-        });</script>
-
-
 </body>
 
 
 </html>
+
+
+
+<div class="container">
+
+
+    <div id="flighttrack" class="row text-center text-white">
+        <div id="gold">
+            <p style="font-size:60px;" class="montserrat-font font-weight-light"> Tesla FSD (Full Self Driving) Process Tracker and the Software tracker </p>
+        </div>
+    </div>
+
+    <div id="teslafsd" class="row text-center text-white">
+        <p style="font-size:20px;" class="montserrat-font font-weight-light"> This window below shows the FSD Beta performance, data is submitted by FSD Beta testers. </p>
+        <iframe scrolling="no" frameborder="0" style="height: 900px; width: 1000px" align="middle" src="https://app.powerbi.com/view?r=eyJrIjoiZTlkMWY1NTMtYTM1Mi00YmZmLWE4ZjQtZmE0M2EyMjgzMDNjIiwidCI6ImMxM2M0MmQ1LTlhNTAtNDY3YS05Yjc3LWI1MjkyYzgxZjM1NSIsImMiOjF9"> </iframe>
+
+    </div>
+
+</div>
+
